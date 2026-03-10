@@ -1,0 +1,21 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#container {
+  display: grid;
+  border: 1px solid black;
+  width: 600px;
+  height: 600px;
+  gap: 0;
+}
+
+.grid-item {
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+}
